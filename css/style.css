@@ -48,5 +48,5 @@ body {
 
 .boton:active{
   transform: scale(.5);
-  transition: .8s;
+  transition: .3s;
 }
