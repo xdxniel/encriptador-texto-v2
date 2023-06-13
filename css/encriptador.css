@@ -1,0 +1,21 @@
+:root{
+  --fuente-principal:'Bruno Ace', cursive;
+}
+
+body{
+  font-family: var(--fuente-principal);
+}
+
+.container{
+  background: #041456;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7rem;
+}
+
+.titulo__encriptador{
+  color: #ffffff;
+  font-size: 2rem;
+}
