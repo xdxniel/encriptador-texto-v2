@@ -48,6 +48,11 @@ main{
   color: #ffffff;
 }
 
+.cajas__boton-org{
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .cajas__boton{
   width: 7rem;
   border: 1px solid #ffffff;
