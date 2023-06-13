@@ -23,5 +23,21 @@ body{
 main{
   width: 100vw;
   background: #808586;
-  
+
 }
+
+.cajas{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3rem 0 1rem 0;
+}
+
+.cajas__contenido{
+  display: grid;
+}
+
+.cajas__boton{
+  width: 6rem;
+}
+
