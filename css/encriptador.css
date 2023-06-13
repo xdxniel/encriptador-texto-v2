@@ -4,11 +4,13 @@
 
 body{
   font-family: var(--fuente-principal);
+  height: 100vw;
+  width: 100vw;
 }
 
 .container{
   background: #041456;
-  width: 100vw;
+ 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +24,7 @@ body{
 
 main{
   width: 100vw;
-  background: #808586;
+  background: #0d132d;
 
 }
 
@@ -39,5 +41,10 @@ main{
 
 .cajas__boton{
   width: 6rem;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  color:#ffffff;
+  background: #041456;
+  margin-top: 1rem;
 }
 
