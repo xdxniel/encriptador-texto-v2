@@ -19,3 +19,8 @@ body{
   color: #ffffff;
   font-size: 2rem;
 }
+
+main{
+  width: 100vw;
+  background: #808586;
+}
