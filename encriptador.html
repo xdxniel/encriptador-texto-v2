@@ -19,15 +19,15 @@
     <main>
       <section class="cajas">
         <article class="cajas__contenido">
-          <textarea class="cajas__textarea" cols="50" rows="25" placeholder="ingrese el texto que desee encriptar, no ingrese mayusculas ni acentos..."></textarea>
+          <textarea class="cajas__textarea text-area" cols="50" rows="25" placeholder="ingrese el texto que desee encriptar, no ingrese mayusculas ni acentos..."></textarea>
           <div class="cajas__boton-org">
-            <button class="cajas__boton">encriptar</button>
-            <button class="cajas__boton">desencriptar</button>
+            <button class="cajas__boton boton-encriptar" onclick="botonEncriptar()">encriptar</button>
+            <button class="cajas__boton boton-desencriptar" onclick="botonDesencriptar()">desencriptar</button>
           </div>
         </article>
         <article class="cajas__contenido">
-          <textarea class="cajas__textarea" cols="50" rows="25" placeholder="no ha ingresado ningún texto..."></textarea>
-          <button class="cajas__boton">copiar</button>
+          <textarea class="cajas__textarea text-mensaje" cols="50" rows="25" placeholder="no ha ingresado ningún texto..."></textarea>
+          <button class="cajas__boton boton-copiar" onclick="copiarMensaje()">copiar</button>
         </article>
       </section>
     </main>
@@ -45,4 +45,5 @@
       </section>
     </footer>
   </body>
+  <script src="script.js"></script>
 </html>
