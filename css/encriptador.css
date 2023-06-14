@@ -105,3 +105,41 @@ footer{
   transform: scale(1.3);
   transition: .2s;
 }
+
+@media screen and (max-width: 925px){
+
+  main{
+    background: #041456;
+
+  }
+  .cajas{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cajas__contenido{
+    padding: 1rem;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    text-align: center;
+    background: #0d132d;
+    font-size: 1.3rem;
+  }
+
+  .footer__encriptador{
+    padding: 1rem 0;
+  }
+
+  .footer__contacto{
+    padding: 1rem 0;
+  }
+  
+  .footer__imagen{
+    width: 4.5rem;
+  }
+
+}
