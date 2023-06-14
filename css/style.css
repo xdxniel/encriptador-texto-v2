@@ -64,4 +64,8 @@ body {
     align-items: center;
     padding-top: 50vw;
   }
+
+  .titulo{
+    text-align: center;
+  }
 }
