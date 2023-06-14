@@ -85,10 +85,6 @@ footer{
   text-align: center;
 }
 
-.footer__contacto{
-  
-}
-
 .footer__imagen_container{
   display: flex;
   justify-content: space-evenly;
